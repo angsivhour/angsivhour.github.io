@@ -27,6 +27,7 @@ body
 	position: relative;
 	top:40px;
 	transition: 0.1s linear;
+	font-size: 20px;
 }
 
 .btn:hover i

@@ -1,58 +1,35 @@
-*
+body
 {
-	margin: 0px;
-	padding: 0px;
+	background-color: #bbb;
 }
 
-.d1
+.middle
 {
-	background-color: yellow;
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 80%;
-	height: 20%;
-
+	top: 70%;
+	width: 100%;
+	text-align: center;
 }
 
-.d2
+.btn
 {
-	background-color: pink;
-	position: absolute;
-	top: 0px;
-	left: 80%;
-	width: 20%;
-	height: 80%;
-
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: #333;
+	border-radius: 30%;
+	box-shadow: 4px 4px 10px #33FFEB;
 }
 
-.d3
+.btn i
 {
-	background-color: red;
-	position: absolute;
-	top: 20%;
-	left: 0px;
-	width: 20%;
-	height: 80%;
+	color: #33FFEB;
+	position: relative;
+	top:40px;
+	transition: 0.1s linear;
 }
 
-.d4
+.btn:hover i
 {
-	background-color: orange;
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	width: 60%;
-	height: 60%;
-
-}
-
-.d5
-{
-	background-color: purple;
-	position: absolute;
-	top: 80%;
-	left: 20%;
-	width: 80%;
-	height: 20%;
+	transform: scale(2.5);
 }
